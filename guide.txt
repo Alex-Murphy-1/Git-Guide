@@ -1,0 +1,9 @@
+1. Init
+‘git init’ is used to create a new empty git repository. An initial branch without any commits will be created. Running the command in an existing repository will not overwrite things that are already there. The main reason for rerunning ‘git init’ is for picking up newly added templates
+
+2. Add
+‘git add’ adds contents or new or changed files to the index (what you use to prepare the contents of the next commit). When ‘git commit’ is ran without any other arguments, it will only commit staged changes. ‘git add -p’ can also be used if you only want to add part of your changes to a file. The command will not add ignored files, but you may use the ‘—force’ command to make it add them
+
+3. Status
+‘git status’ shows the working tree status. It displays paths that have differences between the index file and the HEAD commit, paths that have differences between the working tree and the index, and paths in the working tree that aren’t tracked by Git
+
