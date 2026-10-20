@@ -1,9 +1,31 @@
-1. Init
-‘git init’ is used to create a new empty git repository. An initial branch without any commits will be created. Running the command in an existing repository will not overwrite things that are already there. The main reason for rerunning ‘git init’ is for picking up newly added templates
+Command 1. Init
+‘git init’ is used to create a new empty git repository. An initial branch without any commits will be created. Running the command in an existing repository will not overwrite things that are already there.
 
-2. Add
-‘git add’ adds contents or new or changed files to the index (what you use to prepare the contents of the next commit). When ‘git commit’ is ran without any other arguments, it will only commit staged changes. ‘git add -p’ can also be used if you only want to add part of your changes to a file. The command will not add ignored files, but you may use the ‘—force’ command to make it add them
+Command 2. Add
+‘git add’ adds contents or new or changed files to the index (what you use to prepare the contents of the next commit). When ‘git commit’ is ran without any other arguments, it will only commit staged changes.
 
-3. Status
+Command 3. Status
 ‘git status’ shows the working tree status. It displays paths that have differences between the index file and the HEAD commit, paths that have differences between the working tree and the index, and paths in the working tree that aren’t tracked by Git
+
+Command 4. Commit
+‘git commit’ records changes to the selected repository. It creates a new commit containing the current contents of the index and the given log message describing the changes.
+
+Command 5. Remote 
+‘git remote’ manages the set of repositories whose branches you track.
+
+Command 6. Branch
+‘git branch’ is used to list, create or delete branches.
+
+Command 7. Checkout
+‘git checkout’ switches branches or restores working tree files.
+
+Command 8. Merge
+‘git merge’ joins two or more development histories together. It incorporates changes from the named commits into the current branch.
+
+Command 9. Log
+‘git log’ shows the commit logs. Lists commits that are reachable by following the parent links from the given commit(s)
+
+Command 10. Push
+‘git push’ updates remote refs along with associated objects. It updates one or more branches, tags, or other references in one or more remote repositories from your local repository, and sends all necessary data that isn’t already on the remote.
+
 
